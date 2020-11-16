@@ -10,11 +10,11 @@ La media dei numeri risulta pari in quanto la somma dei numeri 56+224 è 280 e l
 
 ### Output
 Esempio di esecuzione del programma
-![Esempio](/multipli_7_8.png)
+![Esempio](multipli_7_8.png)
 
 
 ### Flow Chart
-![Flowchart](/flowchart_multipli_7_8.png)
+![Flowchart](flowchart_multipli_7_8.png)
 
 
 ## Autore
