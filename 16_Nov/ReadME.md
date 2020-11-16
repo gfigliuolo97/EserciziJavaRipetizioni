@@ -1,6 +1,6 @@
 # Multipli di 7 e 8
-
-Dato un numero N in input, verificare se sono contemporaneamente multipli di 7 e 8.
+## Traccia
+> Dato un numero N in input, verificare se sono contemporaneamente multipli di 7 e 8.
 Stampare a video se la media dei numeri è pari o dispari.
 
 ### Esempio
