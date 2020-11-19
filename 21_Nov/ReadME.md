@@ -15,7 +15,7 @@ Esempio di esecuzione del programma
 
 
 ### Flow Chart
-![Flowchart](pari_dispari.PNG)
+![Flowchart](pari_dispari.png)
 
 
 ## Autore
