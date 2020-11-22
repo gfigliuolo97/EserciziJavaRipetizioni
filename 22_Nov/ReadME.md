@@ -1,6 +1,5 @@
-# Pari o Dispari
+# Provvigioni Venditore
 ## Traccia
-
 Traccia
 >Un venditore inserisce l'importo delle vendite di biscotti e taralli.
 >Se vende più di 5.000€ di biscotti riceve una provvigione del 15%, altrimenti del 3%.
@@ -15,7 +14,7 @@ Esempio di esecuzione del programma
 
 
 ### Flow Chart
-![Flowchart](pari_dispari.png)
+![Flowchart](flowchart.png)
 
 
 ## Autore
