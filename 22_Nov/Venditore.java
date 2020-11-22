@@ -44,10 +44,11 @@ public class Venditore {
 		
         //Calcoliamo la somma delle provvigioni
 		totale_venduto = provvigione_biscotti + provvigione_taralli;
-		
+		totale_provvigione = provvigione_biscotti + provvigione_taralli;
+        
         //Controlliamo e calcoliamo l'importo del premio extra
         if(totale_venduto > 30000){
-            premio_extra = (totale_provvigione * 12) / 100;
+            premio_extra = (totale_venduto * 12) / 100;
             totale_provvigione = totale_provvigione + premio_extra;
             System.out.println("Hai ricevuto un premio extra del valore di:" + premio_extra + " euro.");
         }
