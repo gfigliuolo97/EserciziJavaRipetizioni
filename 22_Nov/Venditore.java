@@ -11,6 +11,7 @@ public class Venditore {
 	public static void main(String[] args) {
 		Scanner tastiera = new Scanner(System.in);
 		double totale_provvigione = 0;
+        double totale_venduto = 0;
         double provvigione_biscotti = 0;
 		double provvigione_taralli = 0;
         double premio_extra = 0;
@@ -42,10 +43,10 @@ public class Venditore {
         System.out.println("Il totale delle provvigioni sui taralli e':" + provvigione_taralli + " euro.");
 		
         //Calcoliamo la somma delle provvigioni
-		totale_provvigione = provvigione_biscotti + provvigione_taralli;
+		totale_venduto = provvigione_biscotti + provvigione_taralli;
 		
         //Controlliamo e calcoliamo l'importo del premio extra
-        if(totale_provvigione > 30000){
+        if(totale_venduto > 30000){
             premio_extra = (totale_provvigione * 12) / 100;
             totale_provvigione = totale_provvigione + premio_extra;
             System.out.println("Hai ricevuto un premio extra del valore di:" + premio_extra + " euro.");
