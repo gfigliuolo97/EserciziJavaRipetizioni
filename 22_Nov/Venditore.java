@@ -34,7 +34,7 @@ public class Venditore {
         System.out.println("Il totale delle provvigioni sui biscotti e':" + provvigione_biscotti + " euro.");
         
         //Controlliamo e calcoliamo l'importo delle provvigioni
-        if(totale_taralli > 5000){
+        if(totale_taralli > 10000){
             provvigione_taralli = (totale_taralli * 16)/100;
         }else{
             provvigione_taralli = (totale_taralli * 5)/100;
@@ -43,7 +43,7 @@ public class Venditore {
         System.out.println("Il totale delle provvigioni sui taralli e':" + provvigione_taralli + " euro.");
 		
         //Calcoliamo la somma delle provvigioni
-		totale_venduto = provvigione_biscotti + provvigione_taralli;
+		totale_venduto = totale_biscotti + totale_taralli;
 		totale_provvigione = provvigione_biscotti + provvigione_taralli;
         
         //Controlliamo e calcoliamo l'importo del premio extra
