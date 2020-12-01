@@ -7,7 +7,12 @@ public class Teacher extends Person {
 		super(lastname,firstname);
 		this.schoolSubject = schoolSubject;
 	}
-	
+	public void setSchoolSubject(String subject){
+        this.schoolSubject = subject;
+    }
+    public String getSchoolSubject(){
+        return this.schoolSubject;
+    }
 	@Override
 	public String toString() {
 		return super.toString() + "("+ schoolSubject+")";
