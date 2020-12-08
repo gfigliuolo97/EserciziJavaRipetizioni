@@ -1,5 +1,8 @@
-# Swap
-We need a temporary variable `tmp` to store the value of `x` and then assign it to `y`.
+## Swap.java
+Simple program to swap elements.
+
+## CountChars.java
+Simple program to print how many characters are there in the input string.
 
 ## Author
 Giovanni Figliuolo
