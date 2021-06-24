@@ -1,6 +1,5 @@
 # Provvigioni Venditore
 ## Traccia
-Traccia
 >Un venditore inserisce l'importo delle vendite di biscotti e taralli.
 >Se vende più di 5.000€ di biscotti riceve una provvigione del 15%, altrimenti del 3%.
 >Se vende più di 10.000€ di taralli riceve una provvigione del 16%, altrimenti del 5%.
